@@ -1,0 +1,126 @@
+
+body {
+    background-color: #111;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+button {
+    border: none;
+}
+
+.lime-color {
+    color: lime;
+}
+
+.heading-1 {
+    font-weight:700;
+}
+
+.heading-2 {
+    color: white;
+    font-weight:500;
+}
+
+.heading-1, .heading-2 {
+    font-size: 3rem;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#userInput {
+    height: 3rem;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+
+#btn {
+    height: 3.2rem;
+    width: 3rem;
+    border: 1px solid #111;
+    border-radius: 100%;
+    color: white;
+    background-color: lime;
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+
+.divNotesClass {
+    padding: 1.5rem 0 0 0;
+}
+
+
+.notesClass {
+    width: 40%;
+    height: 3rem;
+    background-color: #111;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+
+.editBtnClass {
+    height: 3rem;
+    background-color: #111;
+    color: lime;
+    font-size: 1.4rem;
+}
+
+.delBtnClass {
+    height: 3rem;
+    background-color: #111;
+    color: red;
+    font-size: 1.4rem;
+}
+
+
+.notesLineClass {
+    border: 2px solid white;
+    width: 53%;
+    margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+  
+    #userInput {
+        height: 2.5rem;
+        width: 80%;
+    }
+
+    #btn {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.5rem;
+    }
+    
+    .notesClass {
+        height: 2.8rem;
+        font-size: 1.2rem;
+    
+    }
+
+    .editBtnClass {
+        height: 2.8rem;
+        font-size: 1.1rem;
+    }
+    
+    .delBtnClass {
+        height: 2.8rem;
+        font-size: 1.1rem;
+    }
+
+    .notesLineClass {
+        width: 80%;
+    }
+
+}
